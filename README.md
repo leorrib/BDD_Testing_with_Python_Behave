@@ -11,6 +11,7 @@ The following scenario is executed in this test:
 ## How to run the test
 - Clone project.
 - On the behave.ini file, indicate the desired browser (either chrome or firefox).
+- Start a virtual environment on root level: 'pythom -m venv .venv'
 - On root level, enter 'pip3 install -r requirements.txt' in order to install all necessary packages.
 - In order to run the test without debugging, enter 'behave tests\features'
 - In order to run the debug on error, enter 'behave -D debug=True tests\features'
